@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layoutDirection="ltr">
+
+
+
+  <Button
+        android:id="@+id/buyButton"
+        android:focusable="false"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:text="Buy"
+        android:background="@drawable/mybutton"
+        android:textColor="#5100f0"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="-60dp"
+        android:onClick="openBuyActivity"/>
+
+  <Button
+      android:id="@+id/sellButton"
+      android:layout_width="70dp"
+      android:layout_height="35dp"
+      android:background="@drawable/mybutton"
+      android:focusable="false"
+      android:text="Sell"
+      android:textColor="#5100f0"
+      android:layout_marginLeft="40dp"
+      android:onClick="openSellActivity"/>
+
+</LinearLayout>
